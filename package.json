@@ -1,5 +1,5 @@
 {
-  "name": "yerb",
+  "name": "@bchance/yerb",
   "version": "0.1.0",
   "description": "",
   "main": "out-tsc/src/index.js",
