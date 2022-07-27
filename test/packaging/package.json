@@ -1,0 +1,19 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "clean": "rm -rf ./out-tsc/*",
+    "build": "npm run clean && npx tsc",
+    "test": "npm run build && yerb -c test-javascript.config.ts",
+    "test:ts": "npm run build && yerb -c test-typescript.config.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.4.3",
+    "yerb": "file:../../yerb-0.1.0.tgz"
+  }
+}

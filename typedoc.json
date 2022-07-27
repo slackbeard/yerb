@@ -1,0 +1,8 @@
+{
+    "entryPointStrategy": "expand",
+    "entryPoints": [
+        "src"
+    ],
+    "out": "doc",
+    "readme": "README.md"
+}
