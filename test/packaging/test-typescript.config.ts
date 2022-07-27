@@ -1,4 +1,4 @@
-import { Config } from 'yerb';
+import { Config } from '@bchance/yerb';
 
 export default new Config({
     include: ["specs/*.spec.ts"],

@@ -13,7 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "typescript": "^4.4.3",
-    "yerb": "file:../../yerb-0.1.0.tgz"
+    "@bchance/yerb": "file:../../bchance-yerb-0.1.1.tgz",
+    "typescript": "^4.4.3"
   }
 }

@@ -1,4 +1,4 @@
-import { ConsoleLogger } from 'yerb';
+import { ConsoleLogger } from '@bchance/yerb';
 
 const logger = new ConsoleLogger();
 

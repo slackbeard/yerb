@@ -86,7 +86,7 @@ Or you can add spec file patterns to search for in your config file:
 ```
 // myConfig.ts
 
-import { Config } from 'yerb';
+import { Config } from '@bchance/yerb';
 
 return new Config({
     include: ["myTest.spec.ts", "./tests/**/*.spec.ts"]
@@ -159,7 +159,7 @@ Example:
 ```
 // hello.spec.ts
 
-import { getTestProcessor } from 'yerb';
+import { getTestProcessor } from '@bchance/yerb';
 
 const testProcessor = getTestProcessor();
 
@@ -197,7 +197,7 @@ Example:
 ```
 // myConfig.ts
 
-import { Config } from 'yerb';
+import { Config } from '@bchance/yerb';
 
 export default new Config({
     include: ["test/**/*.spec.ts"],
@@ -228,7 +228,7 @@ Event handlers can be added to the TestProcessor from your worker init script:
 ```
 //myConfig.ts
 
-import { Config } from `yerb`;
+import { Config } from '@bchance/yerb';
 return new Config({
     workerInitScript: "myWorkerInit.ts"
 });
@@ -238,7 +238,7 @@ return new Config({
 ```
 //myWorkerInit.ts
 
-import { getTestProcessor, TestCompletedEvent } from `yerb`;
+import { getTestProcessor, TestCompletedEvent } from '@bchance/yerb';
 
 const testProcessor = getTestProcessor();
 
@@ -262,7 +262,7 @@ Event handlers for the manager thread can be added to the WorkerManager from you
 ```
 //myConfig.ts
 
-import { Config } from `yerb`;
+import { Config } from '@bchance/yerb';
 return new Config({
     managerInitScript: "myManagerInit.ts"
 });
@@ -272,7 +272,7 @@ return new Config({
 ```
 //myManagerInit.ts
 
-import { getWorkerManager, ManagerResultEvent } from `yerb`;
+import { getWorkerManager, ManagerResultEvent } from '@bchance/yerb';
 
 const workerManager = getWorkerManager();
 

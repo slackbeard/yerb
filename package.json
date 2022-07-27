@@ -7,7 +7,7 @@
     "clean": "rm -rf ./out-tsc/*",
     "build": "npm run clean && tsc",
     "test:run": "npx ts-node ./src/main.ts",
-    "test:packaging": "npm run build && npm pack && cd test/packaging && npm i -D ../../yerb-0.1.0.tgz && npm run test && npm run test:ts",
+    "test:packaging": "npm run build && npm pack && cd test/packaging && npm i -D ../../bchance-yerb-0.1.1.tgz && npm run test && npm run test:ts",
     "test:tsunit": "npx ts-node ./test/unit/run.ts"
   },
   "engines": {
